@@ -1,6 +1,10 @@
 import { useState } from "react";
 import styled from "styled-components";
 
+//component
+import Meta from "@App/Core/components/Meta";
+
+//styles
 const SunAndMoonStyled = styled.div`
     text-align: center;
 
@@ -52,6 +56,7 @@ const SunAndMoon = () => {
 
     return (
         <main>
+            <Meta pageTitle="Course Work" />
             <h1>Course Work</h1>
 
             <SunAndMoonStyled>
