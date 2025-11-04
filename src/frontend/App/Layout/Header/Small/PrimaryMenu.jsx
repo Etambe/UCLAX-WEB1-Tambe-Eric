@@ -14,28 +14,28 @@ const PrimaryMenuStyled = styled.div`
     bottom: 0px;
     overflow-y: auto;
 
-    background-color: ${(theme) => theme.colors.primary.default};
+    background-color: ${({ theme }) => theme.colors.primary.default};
 
     a {
         display: block;
         padding: 0px 20px;
         text-decoration: none;
-        color: ${(theme) => theme.colors.primary.light};
-        border-bottom: 1px solid ${(theme) => theme.colors.primary.light};
+        color: ${({ theme }) => theme.colors.primary.light};
+        border-bottom: 1px solid ${({ theme }) => theme.colors.primary.light};
         font-size: 12px;
         font-weight: bold;
         text-transform: uppercase;
         line-height: 40px;
 
         &:first-child {
-            border-top: 1px solid ${(theme) => theme.colors.primary.light};
+            border-top: 1px solid ${({ theme }) => theme.colors.primary.light};
         }
 
         &:hover,
         &:focus,
         &:active {
-            color: ${(theme) => theme.colors.secondary.light};
-            background-color: ${(theme) => theme.colors.primary.dark};
+            color: ${({ theme }) => theme.colors.secondary.light};
+            background-color: ${({ theme }) => theme.colors.primary.dark};
         }
     }
 `;
