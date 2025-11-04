@@ -4,16 +4,25 @@ import { Routes, Route } from "react-router-dom";
 import Home from "@App/Pages/Home";
 import Staff from "@App/Pages/Staff";
 import Contact from "@App/Pages/Contact";
+
+// Course Work Routes
 import CourseWork from "@App/Pages/CourseWork";
+import SunAndMoon from "@App/Pages/CourseWork/SunAndMoon";
+import Assignments from "@App/Pages/CourseWork/Assignments";
+import Responsive from "@App/Pages/CourseWork/Responsive";
 
 // component
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route element={<Home />} path="" />
+            <Route element={<Home />} index />
             <Route element={<Staff />} path="/staff" />
             <Route element={<Contact />} path="/contact" />
-            <Route element={<CourseWork />} path="/course-work" />
+            <Route element={<CourseWork />} path="/course-work">
+                <Route element={<Assignments />} path="" />
+                <Route element={<SunAndMoon />} path="sun-and-moon" />
+                <Route element={<Responsive />} path="responsive" />
+            </Route>
         </Routes>
     );
 };

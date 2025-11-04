@@ -6,7 +6,7 @@ import Siteinfo from "./Siteinfo";
 import Copyright from "./Copyright";
 
 //styles
-const Footerstyled = styled.div`
+const Footerstyled = styled.footer`
     padding: 20px;
     text-align: center;
     color: ${({ theme }) => theme.colors.primary.light};

@@ -1,0 +1,88 @@
+import styled from "styled-components";
+
+const HomeworkListStyled = styled.div`
+    text-align: left;
+    margin: 40px auto;
+    width: fit-content;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+
+    h2,
+    h3 {
+        color: #3b4455;
+        margin: 16px 0 10px;
+        text-align: center;
+    }
+
+    ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin: 0 0 12px;
+    }
+
+    li {
+        margin: 6px 0;
+    }
+`;
+
+const Assignments = () => {
+    return (
+        <div>
+            <h2>Assignments</h2>
+
+            {/* HOMEWORK SECTIONS */}
+            <HomeworkListStyled>
+                <h3>Homework 1</h3>
+                <ul>
+                    <li>Explain the difference between Git and GitHub</li>
+                    <li>
+                        HTML – structure of a webpage (headings, paragraphs,
+                        links, images). CSS – styling (colors, fonts, layouts,
+                        spacing). JavaScript – interactivity (buttons that work,
+                        simple animations, forms).
+                    </li>
+                </ul>
+
+                <h3>Homework 2</h3>
+                <ul>
+                    <li>Explain the difference between Git and GitHub</li>
+                    <li>
+                        You use Git locally to track and commit changes, then
+                        push those changes to GitHub so others (or future you)
+                        can access them remotely.
+                    </li>
+                </ul>
+
+                <h3>Homework 3</h3>
+                <ul>
+                    <li>What is the difference between jQuery and React?</li>
+                    <li>
+                        jQuery is a JavaScript library that helps manipulate the
+                        DOM easily and handle events. React is a JavaScript
+                        library for building reusable, component-based user
+                        interfaces that update efficiently using a virtual DOM.
+                    </li>
+                </ul>
+
+                <h3>Homework 4</h3>
+                <ul>
+                    <li>
+                        What is the difference between a Front-End and Back-End
+                        Developer?
+                    </li>
+                    <li>
+                        A Front-End Developer focuses on what users see and
+                        interact with in the browser — like layout, visuals, and
+                        functionality using HTML, CSS, and JavaScript. A
+                        Back-End Developer works on the server, database, and
+                        application logic that power the site behind the scenes.
+                    </li>
+                </ul>
+            </HomeworkListStyled>
+        </div>
+    );
+};
+
+export default Assignments;
