@@ -2,20 +2,20 @@ import styled from "styled-components";
 import PropTypes from "prop-types";
 
 // styles
-const insetStyled = styled.div`
+const InsetStyled = styled.div`
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 `;
 
 // component
-const inset = ({ children }) => {
-    return <insetStyled>{children}</insetStyled>;
+const Inset = ({ children }) => {
+    return <InsetStyled>{children}</InsetStyled>;
 };
 
-export default inset;
+export default Inset;
 
 // prop-types
-inset.propTypes = {
-    prop: PropTypes.any,
+Inset.propTypes = {
+    children: PropTypes.any,
 };

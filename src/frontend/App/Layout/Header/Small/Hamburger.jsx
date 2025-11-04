@@ -12,7 +12,7 @@ const HamburgerStyled = styled(UnstyledButton)`
     top: 20px;
     right: 20px;
     font-size: 30px;
-    color: ${(theme) => theme.colors.secondary.light};
+    color: ${({ theme }) => theme.colors.secondary.light};
 `;
 
 // component
