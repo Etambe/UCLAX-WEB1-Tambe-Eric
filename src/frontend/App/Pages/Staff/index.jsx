@@ -10,6 +10,8 @@ const Staff = () => {
             <Inset>
                 <Meta pageTitle="Staff" />
                 <h1>Staff</h1>
+                <StaffList />
+                çÇ
             </Inset>
         </main>
     );

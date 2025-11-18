@@ -80,6 +80,24 @@ const Assignments = () => {
                         application logic that power the site behind the scenes.
                     </li>
                 </ul>
+
+                <h3>Homework 5</h3>
+                <ul>
+                    <li>
+                        In React, what are the different ways we can link to
+                        resources (e.g. Root Relative vs Document Relative)?
+                    </li>
+                    <li>
+                        In React, there are two main ways to link to resources:
+                        1. Document-Relative Paths (./ or ../) 2. Root-Relative
+                        Paths (/). Document-relative paths are relative to the
+                        current file's location. Root-relative paths are
+                        relative to the root of the project. Root-relative paths
+                        are often used for assets in the public folder, while
+                        document-relative paths are used for components and
+                        files within the src directory.
+                    </li>
+                </ul>
             </HomeworkListStyled>
         </div>
     );
