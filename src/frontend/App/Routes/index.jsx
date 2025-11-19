@@ -11,6 +11,7 @@ import CourseWork from "@App/Pages/CourseWork";
 import SunAndMoon from "@App/Pages/CourseWork/SunAndMoon";
 import Assignments from "@App/Pages/CourseWork/Assignments";
 import Responsive from "@App/Pages/CourseWork/Responsive";
+import FormInputState from "@App/Pages/CourseWork/FormInputState";
 
 // component
 const AppRoutes = () => {
@@ -26,6 +27,7 @@ const AppRoutes = () => {
                 <Route element={<Assignments />} path="" />
                 <Route element={<SunAndMoon />} path="sun-and-moon" />
                 <Route element={<Responsive />} path="responsive" />
+                <Route element={<FormInputState />} path="form-input-state" />
             </Route>
         </Routes>
     );
