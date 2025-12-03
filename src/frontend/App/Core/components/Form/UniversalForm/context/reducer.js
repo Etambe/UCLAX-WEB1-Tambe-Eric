@@ -9,10 +9,22 @@ export const reducer = (state, action) => {
             };
         }
 
-        default: {
+        case actionTypes.SET_FORM_STATUS: {
             return {
                 ...state,
+                formStatus: action.formStatus,
             };
+        }
+
+        case actionTypes.SET_GLOBAL_MESSAGE: {
+            return {
+                ...state,
+                globalMessage: action.globalMessage,
+            };
+        }
+
+        default: {
+            return { ...state };
         }
     }
 };

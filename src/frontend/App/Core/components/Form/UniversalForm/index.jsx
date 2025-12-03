@@ -5,15 +5,23 @@ import PropTypes from "prop-types";
 import UniversalFormContext from "./context";
 import { reducer } from "./context/reducer";
 
-// component
+// components
 import FormTemplate from "./components/FormTemplate";
 
 // component
-const UniversalForm = ({ formInputs, apiEndpoint, trackingId }) => {
+const UniversalForm = ({
+    formInputs,
+    apiEndpoint,
+    trackingId,
+    submitText = "submit",
+}) => {
     const stateProps = {
         formInputs,
         apiEndpoint,
         trackingId,
+        submitText,
+        formStatus: "idle",
+        globaMessage: { type: "none", text: "" },
     };
 
     const [state, dispatch] = useReducer(reducer, stateProps);
@@ -34,4 +42,5 @@ UniversalForm.propTypes = {
     formInputs: PropTypes.array.isRequired,
     apiEndpoint: PropTypes.string.isRequired,
     trackingId: PropTypes.string.isRequired,
+    submitText: PropTypes.string,
 };

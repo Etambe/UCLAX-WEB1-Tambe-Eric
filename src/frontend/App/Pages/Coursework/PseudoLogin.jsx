@@ -1,15 +1,9 @@
+// components
 import UniversalForm from "@App/Core/components/Form/UniversalForm";
 
 // component
-const Form = () => {
+const PseudoLogin = () => {
     const formData = [
-        {
-            id: "userName",
-            type: "text",
-            labelText: "Name",
-            value: "",
-            rules: ["required"],
-        },
         {
             id: "userEmail",
             type: "text",
@@ -18,9 +12,9 @@ const Form = () => {
             rules: ["required", "email"],
         },
         {
-            id: "userName",
-            type: "text",
-            labelText: "Name",
+            id: "password",
+            type: "password",
+            labelText: "Password",
             value: "",
             rules: ["required"],
         },
@@ -29,11 +23,11 @@ const Form = () => {
     return (
         <UniversalForm
             formData={formData}
-            apiEndpoint="/sendmail"
-            trackingId="contact"
-            submitText="Send"
+            apiEndpoint="/pseudo-login"
+            trackingId="pseudo-login"
+            submitText="Login"
         />
     );
 };
 
-export default Form;
+export default PseudoLogin;
