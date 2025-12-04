@@ -5,7 +5,7 @@ import UniversalFormContext from "./index.js";
 import { createActions } from "./actions.js";
 
 // validation
-import { validFormInputs } from "./valideFormInputs.js";
+import { validateFormInputs } from "./valideFormInputs.js";
 
 export const useUniversalForm = () => {
     const { state, dispatch } = useContext(UniversalFormContext);
@@ -16,7 +16,7 @@ export const useUniversalForm = () => {
         actions.setGlobalMessage({ type: "none", text: "" });
 
         // validating form
-        const isValid = validFormInputs(formInputs, actions);
+        const isValid = validateFormInputs(formInputs, actions);
         if (!isValid) {
             actions.setFormStatus("idle");
             return false;
