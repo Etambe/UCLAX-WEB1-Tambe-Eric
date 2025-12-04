@@ -18,8 +18,8 @@ const Form = () => {
             rules: ["required", "email"],
         },
         {
-            id: "userName",
-            type: "text",
+            id: "userMessage",
+            type: "textarea",
             labelText: "Name",
             value: "",
             rules: ["required"],
@@ -28,7 +28,7 @@ const Form = () => {
 
     return (
         <UniversalForm
-            formData={formData}
+            formInputs={formData}
             apiEndpoint="/sendmail"
             trackingId="contact"
             submitText="Send"
