@@ -7,7 +7,7 @@ import Input from "@App/Core/components/Form/Inputs/Input";
 //styles
 const FormInputStateStyled = styled.div`
     padding: 20px;
-    background-color: ${(theme) => theme.colors.primary.default};
+    background-color: ${({ theme }) => theme.colors.primary.default};
 `;
 
 // component
@@ -15,11 +15,10 @@ const FormInputState = () => {
     const [value, setValue] = useState("");
 
     const formInput = {
-        id: "username",
+        id: "userName",
         labelText: "Name",
         type: "text",
         value: value,
-        errorMessage: "Please enter your name",
     };
 
     const onChange = (e) => {
