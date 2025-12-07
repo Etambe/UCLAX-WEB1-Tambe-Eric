@@ -7,12 +7,12 @@ import StaffMember from "@App/Pages/Staff/StaffMember";
 import Contact from "@App/Pages/Contact";
 
 // Course Work Routes
-import CourseWork from "@App/Pages/CourseWork";
-import SunAndMoon from "@App/Pages/CourseWork/SunAndMoon";
-import Assignments from "@App/Pages/CourseWork/Assignments";
-import Responsive from "@App/Pages/CourseWork/Responsive";
-import FormInputState from "@App/Pages/CourseWork/FormInputState";
-import PseudoLogin from "@App/Pages/CourseWork/PseudoLogin";
+import CourseWork from "@App/Pages/Coursework";
+import SunAndMoon from "@App/Pages/Coursework/SunAndMoon";
+import Assignments from "@App/Pages/Coursework/Assignments";
+import Responsive from "@App/Pages/Coursework/Responsive";
+import FormInputState from "@App/Pages/Coursework/FormInputState";
+import PseudoLogin from "@App/Pages/Coursework/PseudoLogin";
 
 // component
 const AppRoutes = () => {
