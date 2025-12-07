@@ -22,7 +22,7 @@ const PseudoLogin = () => {
 
     return (
         <UniversalForm
-            formData={formData}
+            formInputs={formData}
             apiEndpoint="/pseudo-login"
             trackingId="pseudo-login"
             submitText="Login"
