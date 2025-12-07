@@ -24,7 +24,7 @@ const UniversalForm = ({
         trackingId,
         submitText,
         formStatus: "idle",
-        globaMessage: { type: "none", text: "" },
+        globalMessage: { type: "none", text: "" },
     };
 
     const [state, dispatch] = useReducer(reducer, stateProps);
