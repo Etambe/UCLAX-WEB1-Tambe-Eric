@@ -8,7 +8,7 @@ import Slide from "./Slide";
 // component
 const Slideshow = ({ slides }) => {
     return (
-        <Carousel showThumbs={false}>
+        <Carousel showThumbs={false} autoplay={true}>
             {slides.map((slide) => {
                 return <Slide key={slide.id} slide={slide} />;
             })}
