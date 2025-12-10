@@ -6,7 +6,7 @@ const GlobalStyle = createGlobalStyle`
             html,
             body {
                 margin: 0;
-                font-family: ${fonts.roboto};
+                font-family: ${fonts.inter};
                 font-weight: ${fontWeights.regular};
             }
             body {
@@ -52,11 +52,13 @@ const GlobalStyle = createGlobalStyle`
                 font-weight: ${fontWeights.regular};
                 margin: 0px 0px 28px;
                 font-size: 16px;
+                color: ${colors.primary.dark};
             }
 
             li {
                 font-size: 14px;
                 margin-bottom: 5px;
+                color: ${colors.primary.dark};
                 p {
                     margin-bottom: 5px;
                 }

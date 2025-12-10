@@ -1,20 +1,20 @@
 export const tabsData = [
     {
         id: 1,
-        src: "/assets/tabs/Alex-Esqueda-Box-Jump.jpg",
+        src: "/assets/tabs/glar-about.jpg",
         title: "About",
-        text: "<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey to fit your lifestyle.</p>",
+        text: "<p>Join a <b>community</b> of dedicated real estate professionals committed to raising the standard of practice across Greater Los Angeles. At GLAR, we empower members with education, advocacy, networking, and resources designed to elevate their careers and strengthen the communities they serve.</p>",
     },
     {
         id: 2,
-        src: "/assets/tabs/Tire-Flip.jpg",
+        src: "/assets/tabs/glar-mission.jpg",
         title: "Mission",
-        text: "<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>",
+        text: "<p>Our mission is to support REALTORS® through <b>education, protection, and advocacy</b>. GLAR works tirelessly to ensure members have access to up-to-date industry guidance, legal support, meaningful connections, and community programs that advance homeownership and protect property rights throughout Los Angeles.</p>",
     },
     {
         id: 3,
-        src: "/assets/tabs/Kids.jpg",
+        src: "/assets/tabs/glar-vision.jpg",
         title: "Vision",
-        text: "<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.</p>",
+        text: "<p>GLAR envisions an informed, ethical, and thriving real estate community where every REALTOR® has the tools to succeed. We believe in fostering a more accessible, equitable future in housing—where professionals are supported, clients are protected, and our industry continues to evolve for the better.</p>",
     },
 ];

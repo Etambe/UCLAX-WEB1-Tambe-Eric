@@ -4,16 +4,16 @@ import Inset from "@App/Layout/Inset";
 import Form from "./Form";
 
 // component
-const Contact = () => {
+const Connect = () => {
     return (
         <main>
             <Inset>
-                <Meta pageTitle="Contact" />
-                <h1>Contact</h1>
+                <Meta pageTitle="Connect" />
+                <h1>Connect</h1>
                 <Form />
             </Inset>
         </main>
     );
 };
 
-export default Contact;
+export default Connect;

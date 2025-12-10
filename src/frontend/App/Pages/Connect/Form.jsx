@@ -30,8 +30,8 @@ const Form = () => {
         <UniversalForm
             formInputs={formData}
             apiEndpoint="/sendmail"
-            trackingId="contact"
-            submitText="Send"
+            trackingId="connect"
+            submitText="Connect Now"
         />
     );
 };

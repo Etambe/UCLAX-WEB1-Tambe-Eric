@@ -11,7 +11,7 @@ const TabItemStyled = styled.div`
     width: clamp(75px, 20%, 150px);
 
     background-color: ${({ theme }) => theme.colors.secondary.light};
-    color: ${({ theme }) => theme.colors.secondary.dark};
+    color: ${({ theme }) => theme.colors.primary.dark};
     &.selected {
         background-color: ${({ theme }) => theme.colors.primary.default};
         color: ${({ theme }) => theme.colors.secondary.light};

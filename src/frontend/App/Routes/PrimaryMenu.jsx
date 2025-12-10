@@ -6,7 +6,7 @@ const PrimaryMenu = () => {
         <nav>
             <NavLink to="">Home</NavLink>
             <NavLink to="/staff">Staff</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink to="/connect">Connect</NavLink>
             <NavLink to="/course-work">Coursework</NavLink>
         </nav>
     );

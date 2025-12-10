@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "@App/Pages/Home";
 import Staff from "@App/Pages/Staff";
 import StaffMember from "@App/Pages/Staff/StaffMember";
-import Contact from "@App/Pages/Contact";
+import Connect from "@App/Pages/Connect";
 
 // Course Work Routes
 import CourseWork from "@App/Pages/Coursework";
@@ -23,7 +23,7 @@ const AppRoutes = () => {
                 <Route element={<Staff />} path="" />
                 <Route element={<StaffMember />} path=":staffId" />
             </Route>
-            <Route element={<Contact />} path="/contact" />
+            <Route element={<Connect />} path="/connect" />
             <Route element={<CourseWork />} path="/course-work">
                 <Route element={<Assignments />} path="" />
                 <Route element={<SunAndMoon />} path="sun-and-moon" />

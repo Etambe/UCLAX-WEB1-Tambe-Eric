@@ -14,7 +14,7 @@ export const theme = {
     },
     fonts: {
         default: "'Helvetica Neue', sans-serif",
-        roboto: '"Roboto", sans-serif',
+        inter: '"Inter", sans-serif',
     },
     fontWeights: {
         thin: 100,
@@ -26,19 +26,22 @@ export const theme = {
     },
     colors: {
         primary: {
-            default: "#014444",
-            light: "#7ccdcd",
-            medium: "#006161",
-            dark: "#012626",
+            dark: "#00283F", // GLAR deep navy
+            default: "#003C5F", // Primary GLAR blue
+            medium: "#4F82A6", // Accent medium blue
+            light: "#839EBA", // You chose this
+            tint: "#B3C7D8", // Extra light tint for backgrounds
         },
+
         secondary: {
-            default: "#eee",
-            light: "#fff",
-            dark: "#999",
+            default: "#F3F6F9", // light gray-blue
+            light: "#FFFFFF",
+            dark: "#D0D7DD",
         },
+
         messaging: {
-            success: { color: "#000", bgColor: "#b2ecb2" },
-            error: { color: "#000", bgColor: "#f5672a" },
+            success: { color: "#FFFFFF", bgColor: "#3A8A5F" },
+            error: { color: "#FFFFFF", bgColor: "#C4423A" },
         },
     },
 };

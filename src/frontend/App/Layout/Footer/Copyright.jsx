@@ -8,7 +8,7 @@ const Copyright = () => {
     const today = new Date().getFullYear();
 
     return (
-        <CopyrightStyled>&copy; {today}. All rights Reserved</CopyrightStyled>
+        <CopyrightStyled>&copy; {today}. All Rights Reserved</CopyrightStyled>
     );
 };
 

@@ -1,4 +1,4 @@
-### Asignment 6: What is the difference between jpg, gif, png and svg images?
+#### Asignment 6: What is the difference between jpg, gif, png and svg images?
 
  <ul>
                     <li>

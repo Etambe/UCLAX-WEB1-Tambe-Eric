@@ -9,8 +9,9 @@ const AssignmentTemplateStyled = styled.div`
     padding: 20px;
     margin: 40px 0px;
     background-color: ${({ theme }) => theme.colors.secondary.light};
+    color: ${({ theme }) => theme.colors.primary.dark};
 
-    h3 {
+    h4 {
         background-color: ${({ theme }) => theme.colors.primary.default};
         margin: -20px -20px 20px;
         padding: 20px;

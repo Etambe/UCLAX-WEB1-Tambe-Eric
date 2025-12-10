@@ -14,7 +14,7 @@ const PrimaryMenuStyled = styled.div`
         margin: 0px 5px;
         line-height: 30px;
         color: ${({ theme }) => theme.colors.primary.light};
-        border-bottom: solid 3px ${({ theme }) => theme.colors.primary.light};
+        border-bottom: solid 5px ${({ theme }) => theme.colors.primary.light};
         text-align: center;
         font-size: 12px;
         font-weight: bold;

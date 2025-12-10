@@ -8,10 +8,9 @@ const Staff = () => {
     return (
         <main>
             <Inset>
-                <Meta pageTitle="Staff" />
-                <h1>Staff</h1>
+                <Meta pageTitle="Office Staff" />
+                <h1>Office Staff</h1>
                 <StaffList />
-                çÇ
             </Inset>
         </main>
     );
