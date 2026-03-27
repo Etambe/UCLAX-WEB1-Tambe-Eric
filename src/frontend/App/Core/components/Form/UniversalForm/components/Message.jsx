@@ -19,11 +19,9 @@ const MessageStyled = styled.div`
 
 // component
 const Message = () => {
-    const { globaMessage } = useUniversalForm();
-    const { type, text } = globaMessage;
-
+    const { globalMessage } = useUniversalForm();
+    const { type, text } = globalMessage;
     if (type === "none") return null;
-
     return <MessageStyled type={type}>{text}</MessageStyled>;
 };
 
